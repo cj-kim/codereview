@@ -23,6 +23,7 @@ class Shopping{
 
  private:
   std::vector<Goods> shopping_list_;
+  void Sort();
 };
 
 #endif  // SHOPPING_H_
